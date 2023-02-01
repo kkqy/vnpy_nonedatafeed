@@ -6,7 +6,7 @@ from vnpy.trader.object import BarData, TickData, HistoryRequest
 CHINA_TZ = timezone("Asia/Shanghai")
 
 
-class TqsdkpyDatafeed(BaseDatafeed):
+class NoneDatafeed(BaseDatafeed):
 
     def __init__(self):
         pass
